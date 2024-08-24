@@ -38,7 +38,7 @@ function InputBox({
                 onCurrencyChange && onCurrencyChange(e.target.value)
               }
             >
-              {info.map((currencyValue) => (
+              {currencyOptions.map((currencyValue) => (
                 <option key={currencyValue} value={currencyValue}>
                   {currencyValue}
                 </option>
